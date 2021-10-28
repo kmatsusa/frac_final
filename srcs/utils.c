@@ -6,7 +6,7 @@
 /*   By: kmatsusa </var/mail/kmatsusa>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/23 16:35:15 by kmatsusa          #+#    #+#             */
-/*   Updated: 2021/10/23 16:35:18 by kmatsusa         ###   ########.fr       */
+/*   Updated: 2021/10/28 18:42:56 by kmatsusa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,6 @@ static double	get_double(char *str, int i, int sign)
 double	*ft_atof(char *str)
 {
 	double	*number;
-	double	tmp;
 	int		sign;
 	int		i;
 
