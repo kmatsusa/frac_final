@@ -36,8 +36,8 @@
 /*
 ** window size
 */
-# define WIDTH 400
-# define HEIGHT 400
+# define WIDTH 600
+# define HEIGHT 600
 
 /*
 ** calc

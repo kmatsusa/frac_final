@@ -72,8 +72,7 @@ int	ft_zoom_on(int key, int x, int y, t_all *all)
 	double	mouse_im;
 
 	mouse_re = set_mouse_x_cordinate(x, WIDTH, all->start_re, all->end_re);
-	mouse_im = set_mouse_y_cordinate
-		(HEIGHT - y, HEIGHT, all->start_im, all->end_im);
+	mouse_im = set_mouse_y_cordinate(y, HEIGHT, all->start_im, all->end_im);
 	if (key == WHEEL_UP && (all->end_re - all->start_re) > 0.0000000001
 		&& (all->end_im - all->start_im) > 0.0000000001)
 	{
